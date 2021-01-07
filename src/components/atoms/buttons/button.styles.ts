@@ -9,14 +9,14 @@ interface SolidButtonProps {
 
 export const SolidButton = styled('button')<SolidButtonProps>`
   border-radius: 50px;
-  padding: 13px 30px;
+  padding: 13px 30px 13px 22px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   position: relative;
   > svg {
     position: absolute;
-    right: 18px;
+    right: 15px;
     width: 13px; 
     height: 13px;
   }
