@@ -1,0 +1,10 @@
+.vs
+*.user
+*.DS_Store
+/node_modules
+/.dist
+/dist
+/lib
+lib
+yarn-error.log
+yarn.log

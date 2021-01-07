@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+      "typeRoots": [
+        "./node_modules/@types"
+      ],
+      "outDir": "lib/es",
+      "module": "es2015",
+      "target": "es5",
+      "lib": ["es2015","dom"],
+      "sourceMap": true,
+      "allowJs": false,
+      "jsx": "react",
+      "types": ["react","node"],
+      "moduleResolution": "node",
+      "rootDirs": ["."],
+      "baseUrl": ".",
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "noUnusedLocals": true,
+      "declaration": true,
+      "allowSyntheticDefaultImports": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true
+    },
+    "include": ["./src/components/**/*"],
+    "paths": {
+      "csn/react-component-lib": [
+          "src/components/index.ts"
+      ]
+    },
+    "exclude": ["node_modules", "build", "scripts"]
+  }

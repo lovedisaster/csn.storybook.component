@@ -1,2 +1,13 @@
-# csn.storybook.component
-Storybook with React and Typescript
+# Carsales Redbook Retail React Libraries
+
+## Install 
+```
+npm install 
+```
+
+## Run project
+```
+npm run serve:dev 
+npm run serve:prod 
+
+```
