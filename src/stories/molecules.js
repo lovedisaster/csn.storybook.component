@@ -24,7 +24,10 @@ storiesOf('Molecules/DefaultDropDown', module)
       };
       const groupId = 'GROUP-ID2';
       const value = object(label, defaultValue, groupId);
-      return <DefaultDropDown eventHandlers={{onChangeHandler : action('Dropdown changed'),onFocusHandler : action('Dropdown on focused')
+      return <DefaultDropDown 
+        eventHandlers={{
+            onChangeHandler : action('Dropdown changed'),
+            onFocusHandler : action('Dropdown on focused')
         }} 
         propsValue={value}/>;
     }

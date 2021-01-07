@@ -14,6 +14,9 @@ storiesOf('Atoms/Buttons', module)
       const defaultValue = {bgColor:"#007cc2", hoverBgColor:"#005b8f", color: "#fff",value:"Button"};
       const groupId = 'GROUP-ID1';
       const value = object(label, defaultValue, groupId);
-      return <Button eventHandlers={{onClickHandler : action('Button clicked')}} styles={value}/>;
+      return <Button eventHandlers={{
+        onClickHandler : action('Button clicked')
+      }} 
+        styles={value}/>;
     }
   )
